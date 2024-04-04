@@ -12,7 +12,7 @@ function Main() {
           Discover Exciting Events Happening Near You - Stay Tuned For Updates!!
         </h1>
 
-        <p className="w-2/3 text-[#989090] pb-24"> 
+        <p className="w-2/3 text-[#989090] pb-24 hidden md:block"> 
           On Your Network Note that the development build is not optimized. To
           create a production build, use npm run build.On Your NetworkNote that
           the development build is not optimized.

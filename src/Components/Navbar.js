@@ -47,7 +47,7 @@ function Navbar() {
 
       <div className="flex w-full border p-4">
         <div className="w-1/5 flex justify-center">
-          <span>Mumbai, India</span>
+          <span className="font-bold">Mumbai, India</span>
         </div>
         <div className="w-4/5 overflow-auto scrollbar">
           <ul className="flex gap-x-16 text-[#1E2022] px-4 ">
