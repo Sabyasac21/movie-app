@@ -4,7 +4,7 @@ import '../Styles/horizontalView.css';
 function HorizontalView() {
   return (
     <div className="h-[40vh]">
-    <div className="max-w-full absolute top-[100%]  md:top-[90%] bg-transparent  bg-red-50 flex justify-end">
+    <div className="max-w-full absolute top-[150%]  md:top-[100%] bg-transparent  bg-red-50 flex justify-end">
       <div className="w-4/5">
         <div className="w-4/5  flex justify-between text-white py-4">
           <span >Recommended Shows</span>

@@ -4,7 +4,7 @@ import bg from "../Assets/image.png";
 function Main() {
   return (
     <div
-      className="bg-cover  bg-center bg-no-repeat min-h-screen flex justify-center items-center"
+      className="bg-cover relative  bg-center bg-no-repeat h-[150vh] md:h-[100vh] flex justify-center items-center"
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className=" w-4/5 flex flex-col justify-center items-center gap-4 mt-20">
@@ -12,7 +12,7 @@ function Main() {
           Discover Exciting Events Happening Near You - Stay Tuned For Updates!!
         </h1>
 
-        <p className="w-2/3 text-[#989090] pb-24 hidden md:block"> 
+        <p className="w-2/3 text-[#989090] pb-24 "> 
           On Your Network Note that the development build is not optimized. To
           create a production build, use npm run build.On Your NetworkNote that
           the development build is not optimized.
